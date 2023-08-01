@@ -1,0 +1,18 @@
+class BankAccount:
+    def __init__(self, balance=0):
+        self.balance = balance
+        self.transactions = []
+
+    def deposit(self, amount):
+        self.balance += amount
+        self.transactions.append({'type': 'deposit', 'amount': amount})
+
+    def withdraw(self, amount):
+        if amount > self.balance:
+            print("Insufficient funds")
+            return
+        self.balance -= amount
+        self.transactions.append({'type': 'withdrawal', 'amount': amount})
+
+    def get_balance(self):
+        return self.balance
