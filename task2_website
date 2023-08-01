@@ -1,0 +1,13 @@
+class website:
+    def __init__ (self,name,domain,content,visitors):
+        self.name=name
+        self.domain=domain
+        self.content=content
+        self.visitors=visitors
+    
+    def _repr_(self):
+        return f"welcome in our website your name is{self.name} we have domain {self.domain} our content is {self.content} numbers of our visitors {self.visitors}"
+
+website1=website("Elzerowebschool","www.Elzerowebschool.com","learn lessons of web",25800)
+
+print(website1._repr_())
