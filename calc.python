@@ -1,0 +1,32 @@
+class Calculator:
+    def add(self, x, y):
+        return x + y
+    
+    def subtract(self, x, y):
+        return x - y
+    
+    def multiply(self, x, y):
+        return x * y
+    
+    def divide(self, x, y):
+        if y == 0:
+            raise ValueError("Cannot divide by zero!")
+        return x / y
+        
+def main():
+    calculator = Calculator()
+    x = float(input("Enter the first number: "))
+    y = float(input("Enter the second number: "))
+    operator = input("Enter the operation (+, -, *, /): ")
+    if operator == '+':
+        result = calculator.add(x, y)
+    elif operator == '-':
+        result = calculator.subtract(x, y)
+    elif operator == '*':
+        result = calculator.multiply(x, y)
+    elif operator == '/':
+        result = calculator.divide(x, y)
+    else:
+        print("Invalid operator!")
+        return
+    print(f"The result is {result}")  
