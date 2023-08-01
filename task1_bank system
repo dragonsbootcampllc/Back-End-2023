@@ -1,0 +1,101 @@
+
+import uuid
+from datetime import datetime
+
+class Customer:
+    def __init__(self, national_number, name, address, jop, phone_number, marital_status="none"):
+        self.__national_number = national_number
+        self.name = name
+        self.address = address
+        self.jop = jop
+        self.phone_number = phone_number
+        self.marital_status = marital_status
+        self.customer_id = str(uuid.uuid4())
+
+
+    def infocustomer(self):
+        print(f"Welcome {self.name}, your jop is {self.jop}. Please check your information.")
+
+    def set_national_number(self, new_num):
+        self.__national_number = new_num
+
+    def get_national_number(self):
+        return self.__national_number
+
+    def add_account(self, account):
+        self.accounts.append(account)
+
+    def get_accounts(self):
+        return self.accounts
+
+
+class Account:
+    def __init__(self, customer, balance=0.0):
+        self.account_number = str(uuid.uuid4())
+        self.customer = customer
+        self.balance = balance
+
+    def infoaccount(self):
+        return f"Account Number: {self.account_number}, Customer: {self.customer.name}, Balance: ${self.balance:.2f}"
+
+    def deposit(self, amount):
+        if amount > 0:
+            self.balance += amount
+            return True
+        return False
+
+    def withdraw(self, amount):
+        if 0 < amount <= self.balance:
+            self.balance -= amount
+            return True
+        return False
+
+#deposit ايداع withdraw  سحب
+class Transaction:
+    def __init__(self, transaction_type, amount):
+        self.transaction_id = str(uuid.uuid4())
+        self.transaction_type = transaction_type
+        self.amount = amount
+        self.timestamp = datetime.now()
+
+    def infoTransaction(self):
+        return f"Transaction ID: {self.transaction_id}, Type: {self.transaction_type}, Amount: ${self.amount:.2f}, Timestamp: {self.timestamp}"
+
+
+class Bank:
+    def __init__(self):
+        self.customers = {}
+        self.accounts = {}
+        self.transactions = {}
+
+    def create_customer(self, national_number, name, address, jop, phone_number, marital_status="none"):
+        customer = Customer(national_number, name, address, jop, phone_number, marital_status)
+        self.customers[customer.customer_id] = customer
+        return customer
+
+    def create_account(self, customer, initial_balance=0.0):
+        account = Account(customer, initial_balance)
+        self.accounts[account.account_number] = account
+        customer.add_account(account)
+        return account
+
+    def deposit(self, account_number, amount):
+        if account_number in self.accounts:
+            account = self.accounts[account_number]
+            if account.deposit(amount):
+                transaction = Transaction("Deposit", amount)
+                self.transactions[transaction.transaction_id] = transaction
+                return transaction
+        return None
+
+    def withdraw(self, account_number, amount):
+        if account_number in self.accounts:
+            account = self.accounts[account_number]
+            if account.withdraw(amount):
+                transaction = Transaction("Withdrawal", amount)
+                self.transactions[transaction.transaction_id] = transaction
+                return transaction
+        return None
+    
+
+c
