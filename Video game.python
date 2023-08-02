@@ -1,0 +1,32 @@
+class Player:
+    def __init__(self, name):
+        self.name = name
+        self.score = 0
+
+class Game:
+    def __init__(self):
+        self.players = []
+    
+    def add_player(self, player):
+        self.players.append(player)
+    
+    def start_game(self):
+        for player in self.players:
+            player.score += 1
+    
+    def get_winner(self):
+        winner = max(self.players, key=lambda p: p.score)
+        return winner.name
+
+def main():
+    game = Game()
+    game.add_player(Player('paula'))
+    game.add_player(Player('ali'))
+    game.add_player(Player('hamdy'))
+    for i in range(len(game.players)):
+        game.start_game()
+    winner = game.get_winner()
+    print(f"The winner is {winner}!")
+
+if __name__ == '__main__':
+    main()
