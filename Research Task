@@ -1,0 +1,95 @@
+Definition:
+A web server is a computer program or software that serves web pages to clients upon request. It processes incoming requests, retrieves the requested files or data, and sends them back to the client over the internet.
+
+Functionality:
+Web servers primarily perform the following functions:
+
+Accept and manage incoming client requests.
+Process various types of requests, such as retrieving files (HTML, images, videos, etc.), executing server-side scripts, or handling data submissions.
+Generate responses based on the request, such as serving static files or dynamically generating content.
+Communicate with other servers or services to fulfill the request, if necessary.
+Handle security measures, such as SSL/TLS encryption and authentication.
+
+HTTP Protocol:
+Web servers communicate with clients using the Hypertext Transfer Protocol (HTTP). HTTP defines the structure and format of requests and responses between clients and servers. The most common version is HTTP/1.1, although HTTP/2 and HTTP/3 are newer versions with improved performance and features.
+
+Types of Web Servers:
+Several web server software are available, catering to different needs. Some popular web servers include:
+
+Apache HTTP Server: The most widely used open-source web server software.
+Nginx: A lightweight, high-performance web server often used for serving static content or as a reverse proxy.
+Microsoft Internet Information Services (IIS): A web server software developed by Microsoft for Windows servers.
+Lighttpd: Another lightweight web server designed for high-performance scenarios.
+Node.js: A JavaScript runtime environment that can also function as a web server.
+Server-Side Scripting:
+Web servers can execute server-side scripts to generate dynamic content or perform various tasks. Common server-side scripting languages include:
+
+PHP:
+A popular open-source scripting language designed for web development.
+Python: A versatile programming language that can be used for web development.
+Ruby: A dynamic, object-oriented scripting language commonly used with the Ruby on Rails web framework.
+Java: A general-purpose programming language with robust frameworks like Java Servlet for web development.
+ASP.NET: A web development framework by Microsoft that uses languages like C# or Visual Basic.
+Hosting and Deployment:
+Web servers can be hosted on various platforms, including:
+
+Dedicated Servers: 
+Physical servers dedicated solely to hosting web applications.
+Virtual Private Servers (VPS): Virtualized servers that share physical hardware but function as independent servers.
+Cloud Hosting: Web servers deployed on cloud platforms like Amazon Web Services (AWS), Google Cloud Platform (GCP), or Microsoft Azure.
+Shared Hosting: Multiple websites hosted on the same server, sharing resources and costs.
+Managed Hosting: Hosting services where the server maintenance and management tasks are handled by the hosting provider.
+Security Considerations:
+Web servers require security measures to protect against threats like hacking and data breaches. Some common security practices include:
+
+Implementing SSL/TLS encryption to secure data transmission through HTTPS.
+Regularly applying security patches and updates to the server software.
+Using firewalls and intrusion detection systems (IDS) to monitor and control network traffic.
+Employing secure coding practices to prevent common vulnerabilities like SQL injection or cross-site scripting (XSS).
+Implementing access controls and authentication mechanisms to restrict unauthorized access.
+////////////////////////////////////////////////////////////////
+التعريف:
+خادم الويب هو برنامج كمبيوتر أو برمجيات تخدم صفحات الويب للعملاء عند الطلب. يقوم بمعالجة الطلبات الواردة ، واسترداد الملفات أو البيانات المطلوبة ، وإرسالها مرة أخرى إلى العميل عبر الإنترنت.
+
+الوظائف:
+تقوم خوادم الويب بشكل رئيسي بالوظائف التالية:
+
+قبول وإدارة طلبات العملاء الواردة.
+معالجة أنواع مختلفة من الطلبات ، مثل استرداد الملفات (HTML ، الصور ، مقاطع الفيديو ، إلخ) ، تنفيذ السكربتات على الجانب الخادم ، أو التعامل مع عمليات إرسال البيانات.
+إنشاء استجابات بناءً على الطلب ، مثل تقديم الملفات الثابتة أو إنشاء المحتوى ديناميكيًا.
+التواصل مع خوادم أو خدمات أخرى لتلبية الطلب ، إن لزم الأمر.
+التعامل مع تدابير الأمان ، مثل تشفير SSL / TLS والمصادقة.
+بروتوكول HTTP:
+تتواصل خوادم الويب مع العملاء باستخدام بروتوكول نقل النص الفائق (HTTP). يحدد HTTP هيكل وتنسيق الطلبات والاستجابات بين العملاء والخوادم. الإصدار الأكثر شيوعًا هو HTTP / 1.1 ، على الرغم من أن HTTP / 2 و HTTP / 3 هما إصدارين أحدث بأداء وميزات محسنة.
+
+أنواع خوادم الويب:
+يتوفر العديد من برامج خوادم الويب لتلبية احتياجات مختلفة. بعض خوادم الويب الشائعة تشمل:
+
+خادم Apache HTTP: هو برنامج خادم الويب مفتوح المصدر الأكثر استخدامًا.
+Nginx: خادم ويب خفيف الوزن وعالي الأداء يستخدم في كثير من الأحيان لتقديم المحتوى الثابت أو كخادم وكيل عكسي.
+خدمات معلومات الإنترنت لمايكروسوفت (IIS): برمجيات خادم الويب التي طورتها Microsoft لخوادم Windows.
+Lighttpd: خادم ويب آخر خفيف الوزن مصمم لسيناريوهات عالية الأداء.
+Node.js: بيئة تشغعل JavaScript يمكن أيضًا أن تعمل كخادم ويب.
+البرمجة على الجانب الخادم:
+يمكن لخوادم الويب تنفيذ سكربتات على الجانب الخادم لإنشاء محتوى ديناميكي أو تنفيذ مهام مختلفة. تشمل بعض لغات برمجة الجانب الخادم الشائعة:
+
+PHP: لغة برمجة مفتوحة المصدر شائعة تم تصميمها لتطوير الويب.
+Python: لغة برمجة متعددة الاستخدامات يمكن استخدامها في تطوير الويب.
+Ruby: لغة برمجة ديناميكية وموجهة نحو الكائنات تستخدم عادة مع إطار عمل Ruby on Rails لتطوير الويب.
+Java: لغة برمجة عامة تستخدم إطارات قوية مثل Java Servlet لتطوير الويب.
+ASP.NET: إطار تطوير الويب من Microsoft يستخدم لغات مثل C# أو Visual Basic.
+الاستضافة والنشر:
+يمكن استضافة خوادم الويب على منصات مختلفة ، بما في ذلك:
+
+الخوادم المخصصة: خوادم مادية مخصصة فقط لاستضافة تطبيقات الويب.
+الخوادم الخاصة الافتراضية (VPS): خوادم افتراضية تشترك في الأجهزة المادية ولكنها تعمل كخوادم مستقلة.
+الاستضافة السحابية: خوادم الويب المنشأة على منصات السحابة مثل خدمات أمازون ويب (AWS) أو منصة Google Cloud (GCP) أو Microsoft Azure.
+الاستضافة المشتركة: عدة مواقع ويب تستضيف على نفس الخادم ، مشتركة في الموارد والتكاليف.
+الاستضافة المُدارة: خدمات الاستضافة التي تتولى مزودات الاستضافة مهام صيانة وإدارة الخادم.
+اعتبارات الأمان:
+تحتاج خوادم الويب إلى تدابير أمان لحماية ضد التهديدات مثل الاختراق وانتهاكات البيانات. تشمل بعض الممارسات الأمنية المشتركة:
+
+تنفيذ تشفير SSL / TLS لتأمين نقل البيانات عبر HTTPS.
+تطبيق تحديثات الأمان والإصلاحات بانتظام على برامج الخادم.
+استخدام جدران الحماية وأنظمة الكشف عن التسلل (IDS) لمراقبة ومراقبة حركة المرور على الشبكة.
+تبني ممارسات البرمجة الآمنة لمنع الثغرات الشائعة مثل حقن SQL أو البرمجة النصية عبر المواقع (
