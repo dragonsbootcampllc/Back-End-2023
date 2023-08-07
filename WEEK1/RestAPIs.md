@@ -66,12 +66,15 @@ As shown in Figure 3
 - It uses HTTP methods to get data from Database Server
 
 ## 1)GET method
+
 ```py
 
 import requests
 api_url='.............'
 response=requests.get(api_url)
 print(response.json())
+
+
 ```
 
 ## 2)POST method
