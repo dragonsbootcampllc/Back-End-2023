@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>What is Transmission Control Protocol (TCP)</h1>
+<p>TCP (Transmission Control Protocol) is one of the main protocols of the Internet protocol suite.
+It lies between the Application and Network Layers which are used in providing reliable delivery
+services. It is a connection-oriented protocol for communications that helps in the exchange of
+messages between different devices over a network. The Internet Protocol (IP),
+which establishes the technique for sending data packets between computers, works with TCP.</p>
+<BR><BR>
+<h1>Working of TCP</h1>
+<p>To make sure that each message reaches its target location intact, the TCP/IP model breaks down the
+data into small bundles and afterward reassembles the bundles into the original message on the opposite end.
+Sending the information in little bundles of information makes it simpler to maintain efficiency 
+as opposed to sending everything in one go.After a particular message is broken down into bundles,
+these bundles may travel along multiple routes if one route is jammed but the destination remains the same.</p>
+<BR><BR>
+<h1>Features of TCP/IP</h1>
+<P>1. Segment Numbering System
+TCP keeps track of the segments being transmitted or received by assigning numbers to each and every single one of them.
+A specific Byte Number is assigned to data bytes that are to be transferred while segments are assigned sequence numbers.
+Acknowledgment Numbers are assigned to received segments.<br>
+2. Connection Oriented
+It means sender and receiver are connected to each other till the completion of the process.
+The order of the data is maintained i.e. order remains same before and after transmission.<br>
+3. Full Duplex
+In TCP data can be transmitted from receiver to the sender or vice – versa at the same time.
+It increases efficiency of data flow between sender and receiver. <br>
+4. Flow Control
+Flow control limits the rate at which a sender transfers data. This is done to ensure reliable delivery.
+The receiver continually hints to the sender on how much data can be received (using a sliding window)<br>
+5. Error Control
+TCP implements an error control mechanism for reliable data transfer
+Error control is byte-oriented
+Segments are checked for error detection
+Error Control includes – Corrupted Segment & Lost Segment Management, Out-of-order segments, Duplicate segments, etc<P>
+<BR><BR>
+<h1>Advantages</h1>
+<P>
+*-It is a reliable protocol.<BR>
+*-It provides an error-checking mechanism as well as one for recovery.<BR>
+*-It gives flow control.<BR>
+*-It makes sure that the data reaches the proper destination in the exact order that it was sent.<BR>
+*-Open Protocol, not owned by any organization or individual.<BR>
+*-It assigns an IP address to each computer on the network and a domain name to each site thus making each device site to be distinguishable over the network
+<P>
+<BR><BR>
+<h1>Disadvantages</h1>
+<P>
+*-TCP is made for Wide Area Networks, thus its size can become an issue for small networks with low resources.<BR>
+*-TCP runs several layers so it can slow down the speed of the network.<BR>
+*-It is not generic in nature. Meaning, it cannot represent any protocol stack other than the TCP/IP suite. E.g., it cannot work with a Bluetooth connection.<BR>
+*-No modifications since their development around 30 years ago<BR>
+<P>
+
+</body>
+</html>
