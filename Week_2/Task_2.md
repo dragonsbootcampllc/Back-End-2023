@@ -1,6 +1,6 @@
 ## Hello, today I want to explain TCP to you
 
-In this post, I will cover the following topics:
+In this post, I will cover the following topics :
 
 1. [**History of TCP**](#1-history-of-tcp)
 2. [**What is TCP?**](#2-what-is-tcp)
