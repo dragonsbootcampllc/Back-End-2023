@@ -1,0 +1,37 @@
+Research Task: Web Servers
+
+1. Overview and Functionality
+Research and provide a comprehensive explanation of what a web server is, its primary purpose, and how it functions in the context of the World Wide Web.
+
+2. HTTP Protocol
+Investigate the Hypertext Transfer Protocol (HTTP) and its role in facilitating communication between web servers and clients. Explain the structure of an HTTP request and an HTTP response.
+
+3. Types of Web Servers
+Explore different types of web servers, including general-purpose servers like Apache and Nginx, as well as specialized servers like Microsoft IIS and lighttpd. Compare their features, strengths, and common use cases.
+
+4. Server Software and Programming Languages
+Research popular programming languages and frameworks used to build web servers, such as Node.js, Python (with Flask or Django), Ruby (with Ruby on Rails), and Java (with Spring Boot). Compare their advantages and disadvantages.
+
+5. Routing and URL Handling
+Investigate how web servers handle routing and URL mapping to direct incoming requests to the appropriate resources or actions within the server.
+
+6. Handling Requests and Responses
+Explore the process of parsing incoming HTTP requests, generating responses, and sending them back to clients. Discuss status codes, headers, and content types.
+
+7. Static vs. Dynamic Content
+Differentiate between serving static content (e.g., HTML, CSS, images) and generating dynamic content (e.g., using templates, databases) on web servers. Explain the advantages and challenges of each approach.
+
+8. Security Measures
+Research common security vulnerabilities associated with web servers, such as SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF). Discuss best practices for securing web servers and mitigating these risks.
+
+9. Hosting and Deployment
+Explore different methods of hosting web servers, including on-premises servers, virtual private servers (VPS), cloud hosting (e.g., AWS, Azure), and Platform as a Service (PaaS) solutions. Compare the advantages and limitations of each option.
+
+10. Performance and Scalability
+Investigate techniques for optimizing web server performance and ensuring scalability to handle increasing traffic. Discuss load balancing, caching, and content delivery networks (CDNs).
+
+11. Logs and Monitoring
+Research the importance of server logs and monitoring tools for tracking server activity, diagnosing issues, and ensuring server health. Explore common log formats and popular monitoring solutions.
+
+12. Emerging Trends
+Explore current and emerging trends in web server technology, such as the adoption of HTTP/2 and HTTP/3 protocols, serverless architecture, and the use of containers and microservices.
