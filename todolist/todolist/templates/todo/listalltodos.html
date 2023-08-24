@@ -1,0 +1,19 @@
+
+{% extends 'core/base.html' %}
+
+{% block title %}  {% endblock title %}
+{% block content %}
+
+<a class="btn btn-primary" href="{% url 'addtodo' %}" role="button">Add</a>
+<hr>
+{% for i in todo %}
+<ul class="list-group">
+    <li class="list-group-item">  {{i.title}} - {{i.description}} </li>
+    <a class="btn btn-primary" href="{% url 'edittodo' id=i.id %}" role="button">Edit</a>
+    <a class="btn btn-primary" href="{% url 'deletetodo' id=i.id %}" role="button">Delete</a>
+    
+  </ul>
+
+{% endfor %}
+
+{% endblock content %}
