@@ -1,0 +1,33 @@
+Name: Kerolos Emad Saad
+Dragons BootCAMP summer 2023 Back-end
+Week 3 : Django fundamentals
+Task 1: proxy servers 
+......................................................................................
+
+What is proxy??
+Sometimes some users may be banned from visiting some websites and this is done by blocking their IP address
+In this case, they turn to a proxy server that is able to unblock access to these sites and allow an open Internet for all users
+In this way, the proxy is the link between the user and the website, and this is done because it uses a new IP address other than the blocked IP address to access the website
+
+How proxy work?? 
+It is an application that is installed on servers, when it is called a proxy server
+Internal networks, Internet service providers and companies depend on it when providing the service to any of its subscribers, so that it acts as an intermediary between network users and the Internet, as well as works to isolate the network from the global external network (www) and provides it with speed and security 
+
+Advantages of proxy server 
+1)caching:The proxy includes a large database, so if the site that the user requests is a site requested by many users, it will already be in its storage memory and will be returned to it immediately but if it is not in the storage memory, it searches the global network, then keeps a copy of it, stores it in its database, and then returns the data to the user.
+2)Security: The proxy can work as a firewall, for example at the level of a local network of an organization or company. This proxy helps protect this network from any attack or external attack on its network
+3)speed : it is because it keeps a copy of the site. When the customer requests a site which has been requested before, it brings the site immediately from its database.
+4)It serves (many users) in a short time, due to the presence of a database that keeps copies of the sites requested by users
+
+Disadvantages of proxy
+1)Prevent access to some pages unlike others
+2)Get an old or incomplete site : for example when the connection interrupts A part of the page is stored in the proxy database, but the proxy considers it complete and sends it to a user who requests it
+
+Examples of free open source proxy software
+- Apache HTTP server
+- PHproxy
+- Privoxy
+- Ziproxy
+- squid
+- Nginx
+-I2P
