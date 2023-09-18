@@ -1,0 +1,30 @@
+GIT: 
+Distributed Version Control System means it's a system that handles 
+and stores the versions of your project
+
+Git is Free and Open Source
+
+Github is a web application that uses GIT and provide some additional features to Users 
+like Issue Tracker, Projects, Pull Requests and Code Review And Actions
+
+Github is Git Hosting Platform So it uses GIT as it Distributed Version Control System 
+But Git is the Version Control System itself meaning it's can have many Hosting Platform
+like GitLab, BitBucket and obviously GitHub
+
+Adding git to a project means you can track the project progress and version 
+by knowing the changes made in every version and who make these changes and 
+when it uploaded to the git hosting platform
+and reviewing these changes before added to the actual project and who make this review
+
+Main VS Branches
+
+Main is Default and Primary Branch in Git as 
+it's usually the baseline from which other branches are created
+
+Usually the stable and production-ready code exists in the main branch
+
+Branch:
+
+made mainly to work simultaneously without affecting the baseline code or the main branch
+And Allow the reviewers to review each branch before pushing or merging to the main branch
+and ensure stability of the main branch
