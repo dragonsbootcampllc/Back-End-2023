@@ -1,0 +1,48 @@
+import unittest
+
+class Product:
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+
+class ShoppingCart: 
+    def __init__(self):
+        self.Product_list = []
+        
+    
+    def AddProduct(self, Product) : 
+            self.Product_list.append(Product)
+    def RemoveProduct(self, Product):
+            self.Product_list.remove(Product)
+    
+    def CalculatingTotalPrice(self):
+        Total_Price = 0
+        
+        for product in self.Product_list : 
+            Total_Price += product.price
+        return Total_Price
+    
+class TestShoppingCart(unittest.TestCase):
+    def test_add_product(self):
+        cart = ShoppingCart()
+        product1 = Product("Product 1", 10)
+        cart.AddProduct(product1)
+        self.assertEqual(len(cart.Product_list), 1)
+        
+    def test_remove_product(self):
+        cart = ShoppingCart()
+        product1 = Product("Product 1", 10)
+        cart.AddProduct(product1)
+        cart.RemoveProduct(product1)
+        self.assertEqual(len(cart.Product_list), 0)
+
+    def test_calculating_total_price(self):
+        cart = ShoppingCart()
+        product1 = Product("Product 1", 10)
+        product2 = Product("Product 2", 20)
+        cart.AddProduct(product1)
+        cart.AddProduct(product2)
+        total_price = cart.CalculatingTotalPrice()
+        self.assertEqual(total_price, 30)
+    
+unittest.main()
