@@ -1,0 +1,29 @@
+### This article talks about what version control is [*VersionControl*][1].
+### This article discusses git and its distinguished features compared with other VCS [*GIT*][2].
+### This article discusses branches and why they are important [*Branches*][3]
+
+
+[1]:https://www.atlassian.com/git/tutorials/what-is-version-control
+[2]:https://www.atlassian.com/git/tutorials/what-is-git
+[3]:https://www.atlassian.com/git/tutorials/using-branches
+***
+## What is Version Control? 
+Version Control is a practice of tracking and managing changes to the source code, Version controls help teams work faster and smarter as it’s enabled developers to work concurrently and seamlessly on the same Source code, it helps developers fix bugs faster and efficiently by tracing the Bug record and help them debug versions more efficiently, also it makes the deployment process easier for the dev ops team at the organization.
+
+## GIT? 
+By far it’s the most famous, modern, and maintained software version control in the World, having a distributed architecture, meaning rather than having a single place for the full version history of the software, every developer's working copy of the code is also a repository that can contain the full history of all changes. Git is also a great choice for performance and security, also one of its key design objectives is flexibility. Git is flexible in several respects: in support of various kinds of nonlinear development workflows, in its efficiency in both small and large projects, and in its compatibility with many existing systems and protocols.
+
+## Why GitHub uses git!:
+Because it’s the most widely used version control system and git has a great algorithm that enhances its performance and file tracking (which is special to other systems that track only the file names) git is a secure option and flexible one considering merging and branching enabling developers to choose the workflow suitable for them.
+
+#### Add git to the project : 
+We can add git to the project simply by
+ 1)installing the git version control system and initializing the project with git 
+2) committing the changes and pushing it to the project tracking software like GitHub, bitbucket, etc.
+
+# Main Vs Branches? :
+The main branch is the branch containing the main deployed version of the project 
+The branches on the other hand are used to develop new features, fix bugs in the main project, refactoring the code  and enhance the system design, etc.
+we can put it as a safe way of making changes to the code and to encapsulate your changes
+After the changes are made we merge the branch with the main to deploy the changes to servers 
+
