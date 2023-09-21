@@ -166,7 +166,6 @@ How much would it cost? Let’s take the same team.
 
 So, in-house development will cost you about $25,000 per month. Below is a chart outlining the current salaries of developers across the world.
 
-![Average In-House Developers Cost by Country](link_to_image)
 
 ### Option 3: Hire a Local Team [If You Have Unlimited Budget]
 
