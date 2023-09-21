@@ -3,7 +3,7 @@
 The purpose of building an MVP is to launch a product quickly, based on an established idea, with a small budget. MVP development solutions allow businesses to collect users’ feedback for the primary product and include it in future iterations. With an MVP, one can find the right audience, pull the ideas based on experience, and save time.
 
 ## Stats Emphasizing the Need to Build an MVP 
-
+ 
 - 29% of startups fail because they run out of cash.
 - Startups that scale properly grow 20 times faster than those that scale prematurely.
 
