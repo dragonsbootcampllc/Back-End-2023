@@ -143,7 +143,7 @@ For a typical project, you would need to hire a full-time team. Let’s consider
 
 Thus, the overall cost will be up to $13,000 per month. Below is a chart outlining the current salaries of freelancers across the world.
 
-![Average Freelance Developers Salary by Country](link_to_image)
+
 
 ### Option 2: Build an in-House Team [Expensive and Transparent]
 
